@@ -58,41 +58,6 @@ body > main {
 	justify-content: center;
 }
 
-.home-introduction p:not(:last-child) {
-	margin-bottom: 0.5rem;
-}
-
-.operating-hours-table {
-	background: var(--surface-container);
-	width: 75%;
-	margin: 2rem 0;
-	border: 2px solid var(--outline);
-	border-collapse: collapse;
-}
-
-.operating-hours-table > thead th {
-	background: var(--tertiary-container);
-	color: var(--on-tertiary-container);
-	padding: 0.5rem;
-	font-size: 1.25rem;
-	border-bottom: 2px solid var(--outline);
-}
-
-.operating-hours-table > tbody td {
-	color: var(--on-surface-variant);
-	padding: 0.5rem 0;
-	text-align: center;
-}
-
-.operating-hours-table > tbody > tr.closed td {
-	color: var(--secondary);
-}
-
-.reservation > .reservation-btn {
-	font-size: 1.25rem;
-	width: fit-content;
-}
-
 footer {
 	display: flex;
 	align-items: center;
