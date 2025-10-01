@@ -15,6 +15,7 @@ import "./assets/styles/layoutStyles.css";
 /* Pages import
    ========================================================================== */
 import generateHomepage from "./pages/home/home";
+import generateMenuPage from "./pages/menu/menu";
 /* ========================================================================== */
 
 const mainElement = document.querySelector("body > main");
@@ -29,6 +30,7 @@ function initHomepage() {
 
 function addMenuPage() {
 	mainElement.innerHTML = "";
+	mainElement.innerHTML += generateMenuPage();
 }
 
 function addContactPage() {
