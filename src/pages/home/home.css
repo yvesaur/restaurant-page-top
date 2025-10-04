@@ -29,6 +29,65 @@
 }
 
 .reservation > .reservation-btn {
+	margin: 1rem 0 1.5rem 0;
 	font-size: 1.25rem;
 	width: fit-content;
+}
+
+.location {
+	width: 100%;
+}
+
+.location > h2 {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+}
+
+.location > img {
+	width: 100%;
+	height: auto;
+}
+
+@media (width >= 40rem) {
+	.location > h2 {
+		font-size: 1.5rem;
+	}
+	.location > h2 img {
+		width: 1.75rem;
+	}
+}
+
+@media (width >= 48rem) {
+	.operating-hours-table {
+		width: 60%;
+	}
+}
+
+@media (width >= 64rem) {
+	.location > h2 {
+		font-size: 2rem;
+	}
+	.home-introduction p:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+
+	.operating-hours-table {
+		margin: 2.75rem 0;
+	}
+
+	.operating-hours-table > thead th,
+	.reservation > .reservation-btn {
+		font-size: 1.5rem;
+	}
+
+	.reservation > .reservation-btn {
+		margin: 2rem 0;
+	}
+
+	.operating-hours-table > tbody td {
+		font-size: 1.25rem;
+	}
 }

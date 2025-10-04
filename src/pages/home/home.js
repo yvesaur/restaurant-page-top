@@ -1,3 +1,5 @@
+import locationIcon from "../../assets/imgs/location.svg";
+import mapImage from "../../assets/imgs/mock_map.png";
 import "./home.css";
 
 function generateHomepage() {
@@ -58,6 +60,17 @@ function generateHomepage() {
 					spot by clicking the button below.
 				</p>
 				<button class="primary-btn reservation-btn">Book a Reservation</button>
+			</div>
+			<div class="location">
+				<h2>
+					<img
+						src="${locationIcon}"
+						alt="location icon" />
+					<p>Location</p>
+				</h2>
+				<img
+					src="${mapImage}"
+					alt="Location of Dewy Berry" />
 			</div>
   `;
 }

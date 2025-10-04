@@ -1,0 +1,27 @@
+body:has(main.contact) > footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.contact-desc {
+	margin-bottom: 1.5rem;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.contact-info > div {
+	gap: 0.5rem;
+}
+
+.contact-info > div > h2 {
+	font-size: 1.25rem;
+	margin-bottom: 0.25rem;
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+}

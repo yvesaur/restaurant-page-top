@@ -1,9 +1,12 @@
 .primary-btn {
 	padding: 1rem 1.25rem;
-	margin: 1rem 0;
 	font-weight: bold;
 	background-color: var(--primary);
 	color: var(--on-primary);
 	border-radius: 0.5rem;
 	cursor: pointer;
+	box-shadow: var(--shadow-1);
+}
+.primary-btn:hover {
+	background-color: var(--on-primary-container);
 }

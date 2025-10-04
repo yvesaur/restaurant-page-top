@@ -1,3 +1,5 @@
+/* http://material-foundation.github.io/material-theme-builder/?primary=%238F4B38&colorMatch=false */
+
 .light {
 	--primary: rgb(143 75 56);
 	--surface-tint: rgb(143 75 56);
@@ -50,7 +52,7 @@
 	--surface-container-highest: rgb(241 223 218);
 }
 
-.dark {
+/* .dark {
 	--primary: rgb(255 181 160);
 	--surface-tint: rgb(255 181 160);
 	--on-primary: rgb(86 31 16);
@@ -100,4 +102,4 @@
 	--surface-container: rgb(39 29 27);
 	--surface-container-high: rgb(50 40 37);
 	--surface-container-highest: rgb(61 50 48);
-}
+} */
