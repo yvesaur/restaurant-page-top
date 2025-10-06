@@ -1,7 +1,6 @@
-body:has(main.contact) > footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
+body:has(main.contact) > main {
+	height: 75dvh;
+	justify-content: start;
 }
 
 .contact-desc {
@@ -14,6 +13,7 @@ body:has(main.contact) > footer {
 	gap: 1.25rem;
 }
 
+/* Contact cards */
 .contact-info > div {
 	gap: 0.5rem;
 }
@@ -24,4 +24,36 @@ body:has(main.contact) > footer {
 	display: flex;
 	align-items: center;
 	gap: 0.25rem;
+}
+
+/* Large device */
+@media (width >= 64rem) {
+	.contact-info > div > h2 {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.contact-info h2 > img {
+		width: 1.75rem;
+	}
+
+	.contact-info {
+		gap: 1.75rem;
+	}
+
+	/* Contact cards */
+	.contact-info > div {
+		gap: 0.75rem;
+	}
+}
+
+/* Xtra Large device */
+@media (width >= 80rem) {
+	.contact-desc {
+		margin-bottom: 2rem;
+	}
+
+	.contact-info {
+		gap: 2.25rem;
+	}
 }

@@ -1,8 +1,10 @@
 import locationIcon from "../../assets/imgs/location.svg";
-import mapImage from "../../assets/imgs/mock_map.png";
 import "./home.css";
 
 function generateHomepage() {
+	const MAPIMAGE =
+		"https://images.unsplash.com/photo-1584972191378-d70853fc47fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
 	return `
       <div class="home-introduction">
 				<p>
@@ -69,7 +71,7 @@ function generateHomepage() {
 					<p>Location</p>
 				</h2>
 				<img
-					src="${mapImage}"
+					src="${MAPIMAGE}"
 					alt="Location of Dewy Berry" />
 			</div>
   `;

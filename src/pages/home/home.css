@@ -51,6 +51,7 @@
 	height: auto;
 }
 
+/* Small device */
 @media (width >= 40rem) {
 	.location > h2 {
 		font-size: 1.5rem;
@@ -60,12 +61,14 @@
 	}
 }
 
+/* Medium device */
 @media (width >= 48rem) {
 	.operating-hours-table {
 		width: 60%;
 	}
 }
 
+/* Large device */
 @media (width >= 64rem) {
 	.location > h2 {
 		font-size: 2rem;
@@ -75,6 +78,7 @@
 	}
 
 	.operating-hours-table {
+		width: 50%;
 		margin: 2.75rem 0;
 	}
 
@@ -89,5 +93,19 @@
 
 	.operating-hours-table > tbody td {
 		font-size: 1.25rem;
+	}
+}
+
+/* Xtra large device */
+@media (width >= 80rem) {
+	.reservation > .reservation-btn {
+		font-size: 1.75rem;
+	}
+}
+
+/* XXtra large device */
+@media (width >= 96rem) {
+	.reservation > .reservation-btn {
+		font-size: 1.75rem;
 	}
 }

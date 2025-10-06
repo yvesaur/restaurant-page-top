@@ -14,7 +14,7 @@ function generateContactPage() {
 						<img
 							src="${deliveryIcon}"
 							alt="Delivery icon" />
-						<p>Delivery Concerns</p>
+						Delivery Concerns
 					</h2>
 					<p>+1 (202) 555-0134</p>
 					<p>+44 7700 900123</p>

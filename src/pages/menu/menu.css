@@ -35,3 +35,24 @@ main.flex-column:has(div.food-card) {
 .info > .heading > h2 {
 	color: var(--secondary);
 }
+
+/* Medium device */
+@media (width >= 48rem) {
+	.food-card {
+		width: 80%;
+	}
+}
+
+/* Xtra Large device */
+@media (width >= 80rem) {
+	.food-card {
+		width: 75%;
+	}
+}
+
+/* XXtra Large device */
+@media (width >= 96rem) {
+	.food-card {
+		width: 500px;
+	}
+}
