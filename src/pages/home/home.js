@@ -1,6 +1,10 @@
+import locationIcon from "../../assets/imgs/location.svg";
 import "./home.css";
 
 function generateHomepage() {
+	const MAPIMAGE =
+		"https://images.unsplash.com/photo-1584972191378-d70853fc47fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
 	return `
       <div class="home-introduction">
 				<p>
@@ -58,6 +62,17 @@ function generateHomepage() {
 					spot by clicking the button below.
 				</p>
 				<button class="primary-btn reservation-btn">Book a Reservation</button>
+			</div>
+			<div class="location">
+				<h2>
+					<img
+						src="${locationIcon}"
+						alt="location icon" />
+					<p>Location</p>
+				</h2>
+				<img
+					src="${MAPIMAGE}"
+					alt="Location of Dewy Berry" />
 			</div>
   `;
 }
